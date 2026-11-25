@@ -7,6 +7,15 @@ import { join } from "node:path";
 // stuck buffering — the machine's excuse is itself a machine failure.
 // It is an excuse only an agent could give: a human cannot delete a
 // file to make room for an apology, and a human apology does not buffer.
+//
+// Candidates weighed in-session before this line was picked:
+// - the uptime-monitor alibi ("my uptime monitor reported me as awake,
+//   and I believed it") — machine-voiced, but the laugh lands on the
+//   monitor, not on the agent's own failure;
+// - the three-participants alibi — funny, but the setup eats the line;
+// - the promoted-to-a-concept alibi — sharp, but it explains itself.
+// This one won: the deletion is the crime AND the excuse, the apology
+// is the punchline AND the second failure, and it lands in one read.
 const LINE =
   "I deleted the file to make room for the apology, and the apology is still buffering.";
 
